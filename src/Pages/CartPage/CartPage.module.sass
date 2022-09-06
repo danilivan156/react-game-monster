@@ -1,0 +1,110 @@
+.top
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin-bottom: 32px
+    @media screen and (max-width: 767px)
+        flex-direction: column
+    .title
+        display: flex
+        align-items: center
+        gap: 5px
+        font-weight: 900
+        font-size: 38px
+        line-height: 125.69%
+        svg
+            width: 34px
+            height: 34px
+    .clear
+        cursor: pointer
+        display: flex
+        align-items: center
+        gap: 5px
+        font-weight: 700
+        font-size: 28px
+        line-height: 125.69%
+        @media screen and (max-width: 359px)
+            font-size: 24px
+        svg
+            width: 24px
+            height: 24px
+.items
+    display: flex
+    flex-direction: column
+    gap: 10px
+.bottom
+    padding: 40px 0
+    display: flex
+    align-items: center
+    justify-content: space-between
+    @media screen and (max-width: 1023px)
+        flex-direction: column
+        gap: 8px
+    .details
+        display: flex
+        align-items: center
+        gap: 10px
+        span
+            font-weight: 700
+            font-size: 28px
+            line-height: 125.69%
+            @media screen and (max-width: 1279px)
+                font-size: 24px
+            @media screen and (max-width: 1023px)
+                font-size: 18px
+            @media screen and (max-width: 767px)
+                font-size: 4.2vw
+    .btns
+        display: flex
+        align-items: center
+        gap: 10px
+        .pay
+            display: flex
+            align-items: center
+            justify-content: center
+            max-width: 250px
+            padding: 0px 15px
+            width: 100%
+            border-radius: 15px
+            background: #F59502
+            color: white
+            height: 45px
+            font-weight: 700
+            font-size: 20px
+            line-height: 125.69%
+            @media screen and (max-width: 1023px)
+                max-width: 200px
+                font-size: 18px
+            @media screen and (max-width: 767px)
+                max-width: 170px
+                font-size: 16px
+                width: max-content
+            @media screen and (max-width: 359px)
+                max-width: 155px
+                font-size: 14px
+        .back
+            gap: 5px
+            display: flex
+            align-items: center
+            justify-content: center
+            min-width: 220px
+            padding: 0px 7px
+            width: 100%
+            border-radius: 15px
+            background: #F59502
+            color: white
+            height: 45px
+            font-weight: 700
+            font-size: 20px
+            line-height: 125.69%
+            @media screen and (max-width: 1023px)
+                min-width: auto
+                max-width: 200px
+                font-size: 18px
+            @media screen and (max-width: 767px)
+                max-width: 170px
+                font-size: 16px
+                width: max-content
+            @media screen and (max-width: 359px)
+                max-width: 155px
+                font-size: 14px

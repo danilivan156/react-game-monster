@@ -1,0 +1,186 @@
+.catalog-filters
+    display: flex
+    align-items: center
+    justify-content: space-between
+    +mq($max-width: 767px)
+        flex-direction: column-reverse
+        gap: 20px
+    &__item
+        display: flex
+        align-items: center
+        gap: 8px
+        +mq($max-width: 374px)
+            gap: 5px
+    &__popular
+        height: 36px
+        font-weight: 400
+        font-size: 14px
+        line-height: 20px
+        letter-spacing: 0.25px
+        padding-left: 16px
+        padding-right: 16px
+        border: 1px solid #313131
+        border-radius: 37px
+        display: flex
+        align-items: center
+        position: relative
+        +mq($max-width: 374px)
+            font-size: 12px
+            padding-left: 12px
+            padding-right: 12px
+        span
+            color: #F59502
+            font-weight: 700
+        input
+            display: none
+        label
+            cursor: pointer
+            display: flex
+            align-items: center
+            gap: 8px
+        .modal-popular
+            position: absolute
+            z-index: 10
+            left: 0
+            top: 40px
+            border-radius: 10px
+            width: 100%
+            padding: 8px 16px
+            background: #000000
+            border: 1px solid #313131
+            box-shadow: 0px 4px 23px -4px rgba(0, 0, 0, 0.2)
+            border-radius: 17px
+            li
+                font-weight: 400
+                font-size: 16px
+                line-height: 176.19%
+                color: white
+                cursor: pointer
+                &:hover
+                    color: #F59502
+            li.active
+                font-weight: 700
+                color: #F59502
+    &__system
+        height: 36px
+        font-weight: 400
+        font-size: 14px
+        line-height: 20px
+        letter-spacing: 0.25px
+        padding-left: 16px
+        padding-right: 16px
+        border: 1px solid #313131
+        border-radius: 37px
+        display: flex
+        align-items: center
+        position: relative
+        +mq($max-width: 374px)
+            font-size: 12px
+            padding-left: 12px
+            padding-right: 12px
+        span
+            color: #F59502
+            font-weight: 700
+        input
+            display: none
+        label
+            cursor: pointer
+            display: flex
+            align-items: center
+            gap: 8px
+        .modal-platform
+            position: absolute
+            z-index: 10
+            left: 0
+            top: 40px
+            border-radius: 10px
+            width: 100%
+            padding: 8px 16px
+            background: #000000
+            border: 1px solid #313131
+            box-shadow: 0px 4px 23px -4px rgba(0, 0, 0, 0.2)
+            border-radius: 17px
+            li
+                font-weight: 400
+                font-size: 16px
+                line-height: 176.19%
+                color: white
+                cursor: pointer
+                &:hover
+                    color: #F59502
+            li.active
+                font-weight: 700
+                color: #F59502
+    &__price
+        height: 36px
+        font-weight: 400
+        font-size: 14px
+        line-height: 20px
+        letter-spacing: 0.25px
+        padding-left: 16px
+        padding-right: 16px
+        border: 1px solid #313131
+        border-radius: 37px
+        display: flex
+        align-items: center
+        position: relative
+        +mq($max-width: 374px)
+            font-size: 12px
+            padding-left: 12px
+            padding-right: 12px
+        span
+            color: #F59502
+            font-weight: 700
+        input
+            display: none
+        label
+            cursor: pointer
+            display: flex
+            align-items: center
+            gap: 8px
+        .modal-price
+            position: absolute
+            z-index: 10
+            left: 0
+            top: 40px
+            border-radius: 10px
+            width: 100%
+            padding: 8px 16px
+            background: #000000
+            border: 1px solid #313131
+            box-shadow: 0px 4px 23px -4px rgba(0, 0, 0, 0.2)
+            border-radius: 17px
+            li
+                font-weight: 400
+                font-size: 16px
+                line-height: 176.19%
+                color: white
+                cursor: pointer
+                &:hover
+                    color: #F59502
+            li.active
+                font-weight: 700
+                color: #F59502
+    &__search
+        position: relative
+        max-width: 339px
+        width: 100%
+        +mq($max-width: 767px)
+            max-width: 100%
+        input
+            height: 53px
+            width: 100%
+            font-weight: 400
+            font-size: 16px
+            line-height: 125.69%
+            letter-spacing: -0.01em
+            color: #757575
+            background: #222222
+            border-radius: 9px
+            padding: 0 23px
+        svg
+            position: absolute
+            right: 23px
+            top: 0
+            bottom: 0
+            margin: auto
